@@ -67,3 +67,26 @@ plt.ylabel(f'Principal Component 2 ({pca.explained_variance_ratio_[1]*100:.1f}%)
 plt.legend(title='Species')
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
+
+#import plotly.express as px
+
+# 1. Perform PCA specifically for 3 components
+#pca_3d = PCA(n_components=3)
+#X_pca_3d = pca_3d.fit_transform(X_scaled)
+
+# 2. Create a DataFrame for Plotly
+#df_3d = pd.DataFrame(data=X_pca_3d, columns=['PC1', 'PC2', 'PC3'])
+#df_3d['Species'] = iris.target_names[y]
+
+# 3. Generate the Interactive Plot
+#fig = px.scatter_3d(
+#    df_3d, x='PC1', y='PC2', z='PC3',
+#    color='Species',
+#    title='3D Interactive PCA (Iris Dataset)',
+#    labels={'PC1': 'PC 1', 'PC2': 'PC 2', 'PC3': 'PC 3'},
+#    opacity=0.8
+#)
+
+# Change this line in your code:
+# Change to this:
+#fig.show(renderer="png")
