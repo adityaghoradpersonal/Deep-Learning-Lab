@@ -1,0 +1,43 @@
+# Large dataset folders (images take up massive space)
+Lab7-CNN_PlantDisease/PlantVillage/
+
+# Model files (optional: exclude if they're large; .h5/.keras are usually small, but check sizes)
+# *.h5
+# *.keras
+
+# Personal IDE settings (not needed for sharing)
+.vscode/
+
+# Common Python/ML ignores (prevents tracking temp files, caches, etc.)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Jupyter Notebook (if you use .ipynb files later)
+.ipynb_checkpoints
+
+# General data folders (for future datasets)
+data/
+datasets/
+
+PlantVillage/
