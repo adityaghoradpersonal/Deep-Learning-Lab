@@ -34,7 +34,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X_scaled, y, test_size=0.2, random_state=42
 )
 
-print("\n========== SIMPLE LINEAR REGRESSION ==========")
+print("\nSIMPLE LINEAR REGRESSION")
 
 # Using only one feature (e.g., 'MedInc')
 X_simple = X_scaled[:, housing.feature_names.index("MedInc")].reshape(-1, 1)
@@ -68,7 +68,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-print("\n========== MULTIPLE LINEAR REGRESSION ==========")
+print("\nMULTIPLE LINEAR REGRESSION")
 
 multiple_model = LinearRegression()
 multiple_model.fit(X_train, y_train)
@@ -93,6 +93,6 @@ plt.ylabel("Predicted Prices")
 plt.grid(True)
 plt.show()
 
-print("\n========== MODEL COMPARISON ==========")
+print("\nMODEL COMPARISON")
 print("Simple Linear Regression R2:", round(r2_simple,4))
 print("Multiple Linear Regression R2:", round(r2_multiple,4))
