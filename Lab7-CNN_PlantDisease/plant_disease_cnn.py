@@ -12,8 +12,9 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 import json
 
-# Set your dataset path
-data_dir = "D:/1 Projects/Computer Science/Degree/Degree 6th Semester/Deep Learning/Deep-Learning-Lab/Lab7-CNN_PlantDisease/PlantVillage"   # folder containing subfolders of classes
+# Set your dataset path relative to this script
+base_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(base_dir, "PlantVillage")  # folder containing subfolders of classes
 
 # Kaggle dataset path (auto-mounted)
 # data_dir = "/kaggle/input/plantvillage-dataset/color"

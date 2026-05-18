@@ -1,0 +1,70 @@
+Question No. 1
+Assignment No. 1 Perform PCA in dimension reduction of numerical data
+
+Pre-process the data through standardization.
+Perform PCA to reduce dimension.
+Construct the scree plot.
+Data visualization in lower dimensional representation.
+
+Question No. 2
+
+Assignment No. 2 :Implement Simple and Multiple Linear Regression to predict continuous variables.
+
+Perform data preprocessing (handle missing values, feature scaling).
+Fit a Simple Linear Regression model on a dataset (e.g., predicting house prices).
+Extend to Multiple Linear Regression with multiple features.
+Evaluate models using MSE, RMSE, and R² Score.
+Visualize the regression line and predictions.
+
+​Question No. 3
+
+Assignment No. 3 : Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set. Print both correct and wrong predictions. Python ML library classes can be used for this problem.
+
+
+Question No. 4
+
+Assignment 4. : Write a program to implement the naïve Bayesian classifier for a sample training data set stored as a .CSV file. Compute the accuracy of the classifier, considering few test data sets.
+
+
+Question No. 5
+
+Assignment No. 5 :Learn Decision trees for regression and classification problem
+
+a. Split the data set into training and test sets.
+b. Build the decision tree
+c. Check model performances on training and test data sets.
+d. Apply cost complexity pruning to overcome overfitting problem
+e. Apply Random Forest algorithm to overcome overfitting problem.
+f. Apply Ada-boost ensemble method on Decision stumps.
+
+Question No. 6
+
+Assignment 6: Build a Multiclass classifier using the CNN model. Use MNIST or any other suitable dataset.
+
+a. Perform Data Pre-processing
+
+b. Define Model and perform training
+
+c. Evaluate Results using confusion matrix
+
+
+Question No. 7
+
+Assignment 7: Convolutional neural network (CNN) Use any dataset of plant disease and design a plant disease detection system using CNN.
+
+
+Question No. 8
+
+Assignment 8: Use MNIST Fashion Dataset and create a classifier to classify fashion clothing into categories. Using CNN
+
+
+Question No. 9
+
+Assignment 9:  Implementation of RNN model for Stock Price Prediction
+
+
+Question No. 10
+Assignment 10: Using LSTM for prediction of future weather of cities in Python
+
+
+
